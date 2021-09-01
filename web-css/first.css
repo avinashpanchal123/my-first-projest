@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.left{
+    display: inline-block;
+    border: 1px solid red;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.mid{
+    border: 1px solid black;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 34px 25px;
+    font-size: 20px;
+}
+.right{
+    display: inline-block;
+    border: 1px solid blueviolet;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
