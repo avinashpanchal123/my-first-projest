@@ -33,4 +33,13 @@ body{
     position: absolute;
     right: 34px;
     top: 20px;
+    box-sizing: border-box;
+}
+.right .btn{
+    padding: 3px 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: gray;
 }
