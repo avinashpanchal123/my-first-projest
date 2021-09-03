@@ -36,10 +36,58 @@ body{
     box-sizing: border-box;
 }
 .right .btn{
-    padding: 3px 10px;
-    margin: 10px;
+    padding: 3px 30px;
+    margin: 0px 20px;
     cursor: pointer;
 }
 .btn:hover{
     background-color: gray;
+}
+
+
+/* login box */
+
+.login{
+    display: flex;
+    width: 30%;
+    margin: 50px auto;
+    border: 1px solid black;
+    height: 400px;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+.login .box{
+    border: 1px solid black;
+    height: 100px;
+    text-align: center;
+    
+}
+
+#name{
+    border-top: none;
+    width: 300px;
+    margin-top: 30px;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+    
+}
+.login_pass{
+    margin-top: 30px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    font-size: 20px;
+    width: 300px;
+}
+.box a{
+    text-decoration:none;
+}
+.box button{
+    margin-top: 30px;
+    padding: 10px 150px;
 }
